@@ -1,0 +1,70 @@
+* {
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+}
+
+body {
+    background:#333;
+    color:#DDD;
+}
+
+header {
+    width:1000px;
+    /* border:1px solid gray; */
+    margin:0 auto;
+    padding: 20px 0;
+    display:flex;
+    justify-content: flex-end;
+}
+
+header button {
+    padding: 5px 20px;
+    cursor:pointer;
+}
+
+main {
+    width:1000px;
+    margin:0 auto;
+}
+main table#lista {
+    background:#000;
+}
+main table#lista thead tr th {
+    padding:5px;
+}
+main table#lista tbody tr {
+    color:#000;
+}
+main table#lista tbody tr td {
+    padding:5px;
+}
+
+main table#form {
+    margin:0 auto;
+    margin-bottom:20px;
+    display:none;
+}
+
+
+
+.text-center {
+    text-align:center;
+}
+
+.acoes {
+    display:flex;
+    justify-content: space-evenly;
+}
+.acoes img {
+    cursor:pointer;
+}
+
+.corUm {
+    background:#FFF;
+}
+
+.corDois {
+    background:#DDD;
+}

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Consumindo API - Clientes</title>
+</head>
+
+<body>
+
+    <header>
+        <button onClick="">Cadastrar Novo Cliente</button>
+    </header>
+
+    <main>
+
+        <table id="form" width="30%" cellspacing="0" cellpadding="0" border="1">
+            <input type="hidden" id="id" />
+            <tr>
+                <td colspan='2' class='text-center'><strong>CADASTRAR NOVO CLIENTE:</strong></td>
+            </tr>
+            <tr>
+                <td>Nome:</td>
+                <td><input type="text" id="nome" /></td>
+            </tr>
+            <tr>
+                <td>E-mail:</td>
+                <td><input type="text" id="email" /></td>
+            </tr>
+            <tr>
+                <td>Cidade:</td>
+                <td><input type="text" id="cidade" /></td>
+            </tr>
+            <tr>
+                <td>Estado:</td>
+                <td><input type="text" id="estado" /></td>
+            </tr>
+            <tr>
+                <td>Telefone:</td>
+                <td><input type="text" id="telefone" /></td>
+            </tr>
+            <tr>
+                <td colspan='2' class='text-center'>
+                    <button type="text" id="btnCadastrar" onClick="">Cadastrar</button>
+                    <button type="text" id="btnModificar" onClick="">Modificar</button>
+                    <button type="text" id="btnFechar" onClick="">Fechar</button>
+                </td>
+            </tr>
+        </table>
+
+        <table id="lista" width="100%" cellspacing="0" cellpadding="0" border="1">
+            <thead>
+                <tr>
+                    <th>Nome</th>
+                    <th>E-mail</th>
+                    <th>Cidade</th>
+                    <th>Estado</th>
+                    <th>Telefone</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="corUm">
+                    <td>Neto Costa</td>
+                    <td>netocjp@gmail.com</td>
+                    <td>João Pessoa</td>
+                    <td>PB</td>
+                    <td>83 91234-5678</td>
+                    <td class="text-center acoes">
+                        <img src="edit.png" border="0" height="20px" />
+                        <img src="delete.png" border="0" height="20px" />
+                    </td>
+                </tr>
+                <tr class="corDois">
+                    <td>Laryssa Costa</td>
+                    <td>laryssa@exemplo</td>
+                    <td>João Pessoa</td>
+                    <td>PB</td>
+                    <td>83 98765-4321</td>
+                    <td class="text-center acoes">
+                        <img src="edit.png" border="0" height="20px" />
+                        <img src="delete.png" border="0" height="20px" />
+                    </td>
+                </tr>
+                <tr class="corUm">
+                    <td>Antonio</td>
+                    <td>antonio@gmail.com</td>
+                    <td>Barueri</td>
+                    <td>SP</td>
+                    <td>11 91234-5678</td>
+                    <td class="text-center acoes">
+                        <img src="edit.png" border="0" height="20px" />
+                        <img src="delete.png" border="0" height="20px" />
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </main>
+</body>
+
+</html>
